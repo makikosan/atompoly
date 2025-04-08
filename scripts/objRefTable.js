@@ -48,7 +48,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.MoveToTop,
 		C3.Plugins.Audio.Acts.StopAll,
 		C3.Plugins.Sprite.Acts.SetScale,
-		C3.Plugins.Browser.Acts.GoToURL
+		C3.Plugins.Browser.Acts.GoToURL,
+		C3.Plugins.Touch.Cnds.IsTouchingObject
 	];
 };
 self.C3_JsPropNameTable = [
